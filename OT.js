@@ -32,9 +32,6 @@ while( !gameOver){
 
     };
 
-
-
-
 var res = prompt("Select Your class\n 1. Banker \n 2. Carpenter \n 3. Farmer \nInput the number below");
 
 if(res == 1){
@@ -44,8 +41,7 @@ if(res == 1){
     partyStats.occupation = spec;
     partyStats.advantage = referenceStats[0][3];
     partyStats.bonus = referenceStats[0][2];
-    
-}
+   }
 
 else if (res == 2){
     var spec = "Carpenter";
